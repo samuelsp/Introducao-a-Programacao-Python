@@ -1,6 +1,6 @@
 #Introdução a Programação Usando Python
 
-[GitHub:](https://github.com/samuelsp/Introduction-Programming-Python)
+[GitHub](https://github.com/samuelsp/Introduction-Programming-Python)
 
 Professores:
 Susan Ibach @HockeyGeekGirl
