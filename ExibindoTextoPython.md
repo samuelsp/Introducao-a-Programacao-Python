@@ -8,9 +8,13 @@ Quase todo programa utiliza texto para informar ao usuário o que esta ocorrendo
 
 Em Python utilizamos o comando **print** para mostrar alguma informação no console.
 Exemplo:
-		'''python
-		print('Seja bem vindo ao meu programa!')
-		'''
+```python
+s = "Python syntax highlighting"
+print s
+```
+'''python
+print('Seja bem vindo ao meu programa!')
+'''
 
 É necessário utilizar **aspas simples(') ou duplas(")** dentro do comando print para indicar que a informação é uma cadeia de caracteres ou string. Uma *string* é qualquer texto. E por que existe as aspas simples e as aspas duplas? A resposta é simples: com as asplas duplas eu posso incluir as aspas simples na string e portanto eu terei mais recursos de formatação. Por exemplo eu poderei incluir palavras que possui apóstrofo.
 
