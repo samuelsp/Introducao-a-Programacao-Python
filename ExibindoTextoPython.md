@@ -40,6 +40,7 @@ print("""Aqui você insere um texto que não irá
 		\n - pula uma linha ou insere nova linha
 		\t - insere tabulação ou insere um espaço entre palavras
 		+ - concatena strings
+		\ - caractere de escape
 
 E se meu texto conter aspas simples ou duplas em alguma palavra?
 Para isso você pode utilizar o caractere de escape "\" que faz com que o print desconsidere o que vem depois da barra invertida e interprete como uma string.
