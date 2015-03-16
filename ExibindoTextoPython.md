@@ -7,22 +7,21 @@ Quase todo programa utiliza texto para informar ao usuário o que esta ocorrendo
 ##Usando o print
 
 Em Python utilizamos o comando **print** para mostrar alguma informação no console.
-> Exemplo:
-> > print('Seja bem vindo ao meu programa!')
+Exemplo:
+> print('Seja bem vindo ao meu programa!')
 É necessário utilizar aspas simples(') ou duplas(") dentro do comando print para indicar que a informação é uma cadeia de caracteres ou string. Uma *string* é qualquer texto. E por que existe as aspas simples e as aspas duplas? A resposta é simples: com as asplas duplas eu posso incluir as aspas simples na string e portanto eu terei mais recursos de formatação. Por exemplo eu poderei incluir palavras que possui apóstrofo.
 
-> #Exibindo Texto em Python
 > print('Olá, Seja bem vindo ao meu programa em Python!')
 > print("Vocẽ sabia que pode usar 'aspas simples' ou duplas para exibir strings?")
 
 Legal e se meu texto não couber em uma linha eu terei que usar varios comandos print?
 A resposta é não gafanhoto você poderá usar apenas um print e substituir as aspas simples ou duplas pela asplas triplo. Mas como?
-> Assim:
+Assim:
 > print('''Aqui você insere um texto que não irá
-> > > >	caber em apenas uma linha''')
-> ou assim:
+> caber em apenas uma linha''')
+ou assim:
 > print("""Aqui você insere um texto que não irá
-> > > >	caber em apenas uma linha""")
+> caber em apenas uma linha""")
 
 ##Formatações com print
 
