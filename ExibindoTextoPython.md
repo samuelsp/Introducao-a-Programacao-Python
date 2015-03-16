@@ -20,8 +20,10 @@ Legal e se meu texto não couber em uma linha eu terei que usar varios comandos 
 A resposta é não gafanhoto você poderá usar apenas um print e substituir as aspas simples ou duplas pela asplas triplo. Mas como?
 Assim:
 
-{%highlight python print('''Aqui você insere um texto que não irá
-caber em apenas uma linha''') endhighlight%}
+'''python
+print('''Aqui você insere um texto que não irá
+caber em apenas uma linha''')
+'''
 
 ou assim:
 
