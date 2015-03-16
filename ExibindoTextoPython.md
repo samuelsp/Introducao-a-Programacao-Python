@@ -17,7 +17,7 @@ Exemplo:
 		print("Vocẽ sabia que pode usar 'aspas simples' ou duplas para exibir strings?")
 
 Legal e se meu texto não couber em uma linha eu terei que usar varios comandos print?
-A resposta é não gafanhoto você poderá usar apenas um print e substituir as aspas simples ou duplas pela asplas triplo. Mas como?
+A resposta é não gafanhoto você poderá usar apenas um print e substituir as aspas simples ou duplas pela triplo aspas simples ou dupla. Mas como?
 Assim:
 
 		print('''Aqui você insere um texto que não irá
@@ -36,9 +36,17 @@ ou assim:
 
 E se meu texto conter aspas simples ou duplas em alguma palavra?
 Para isso você pode utilizar o caractere de escape "\" que faz com que o print desconsidere o que vem depois da barra invertida e interprete como uma string.
+		
+		print("Eu posso inserir uma palavra que contem \"aspas\" em meu texto.")
+		print('Eu posso inserir uma palavra que contem \'aspas\' em meu texto.')
+		
+Muito bem e seu precisar imprimir um caminho de arquivo?
 
+		print("C:\\Windows\\Documents\\file.txt")
 
+Ai você precisa usar a contrabarra duas vezes.
 
-
+##Cuidado com as aspas
+O erro mais comum para todo iniciante em Python ao escrever programas que geram alguma saida em texto é se esquecer das aspas simples ou duplas ou não saber como utilizar dentro do comando. Portanto cuidado!
 
 
