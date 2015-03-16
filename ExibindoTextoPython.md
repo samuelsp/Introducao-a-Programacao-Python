@@ -58,6 +58,6 @@ print("C:\\Windows\\Documents\\file.txt")
 Ai você precisa usar a contrabarra duas vezes.
 
 ##Cuidado com as aspas
-O erro mais comum para todo iniciante em Python ao escrever programas que geram alguma saida em texto é se esquecer das aspas simples ou duplas ou não saber como utilizar dentro do comando. Portanto cuidado!
+O erro mais comum para todo iniciante em Python ao escrever programas que geram alguma saida em texto é  esquecer de inserir as aspas simples ou duplas ou não saber como utilizar dentro da função print. Portanto cuidado!
 
 
