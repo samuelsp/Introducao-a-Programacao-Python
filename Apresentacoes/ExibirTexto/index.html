@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introdução a Linguagem Python</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="styles/monokai.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Exibindo Texto em Python</h1>
+            <img src="img/terminal.png" width="400" height="350"/>
+        </section>
+        <section>
+            <p>
+                <em>
+                    Python possui recursos para exibição de texto no <strong>terminal</strong>. É possível formatar o texto para mostrar ao usuário informações de forma mais conveniente.
+                </em>
+            </p><br>
+            <img src="img/usuario-coreano.jpg" width="540" height="280"/><br><br>
+            <p>
+                <small>
+                    <em>
+                        Quase todo programa utiliza texto para informar ao usuário o que esta ocorrendo. O texto é um dos meios de interação mais utilizados por programadores. Por isso é importante utilizar uma linguagem clara e objetiva além dos recursos disponíveis para formatação de texto.
+                    </em>
+                </small>
+            </p>
+        </section>
+        <section>
+            <h1>Utilizando o print</h1>
+            <img src="img/print-gutenberg.jpg">
+            <pre><code class="python">
+  print("Gut! Ficou fantastico este texto formatado com a função print!")</code>
+            </pre>
+        </section>
+        <section>
+            <pre><code class="python">
+                     print("Veja como utilizar o print")</code></pre><br>
+            <p><em>É necessário utilizar <strong>aspas simples(') ou duplas(")</strong> dentro do comando print para indicar que o conteúdo é uma cadeia de caracteres ou string. Uma string é qualquer texto.</em></p><br>
+            <p><em>E por que existe as aspas simples e as aspas duplas?</em></p><br>
+            <pre><code class="python">
+                print("Você pode usar palavras com apóstrofo.")
+                print("It's an object!")
+            </code></pre>
+        </section>
+        <section>
+            <h1>Dúvida?</h1>
+            <p>
+                <em>Legal e se meu texto não couber em uma linha eu terei que usar varios comandos print?</em>
+            </p>
+            <img src="img/kungfupanda.jpg">
+            <p><em>A resposta é não panda você poderá usar apenas um print e substituir as aspas simples ou duplas pela triplo aspas simples ou dupla. Mas como?</em></p>
+        </section>
+        <section>
+            <h1>Assim:</h1>
+                <pre><code class="python">
+                    print('''Aqui você insere um texto que não irá
+                           caber em apenas uma linha''')
+                </code></pre><br>
+            <h1>Ou assim:</h1>
+                <pre><code class="python">
+                    print("""Aqui você insere um texto que não irá
+                          caber em apenas uma linha""")
+                </code></pre>
+        </section>
+        <section>
+            <h2>Formatações com print</h2>
+            <pre><code class="bash">
+                \n - pula uma linha ou insere nova linha
+                \t - insere tabulação ou insere um espaço entre palavras
+                + - concatena strings
+                \ - caractere de escape
+            </code>
+            </pre><br>
+            <h2>Utilidade do caractere de escape</h2>
+            <pre><code class="python">
+    print("Eu posso inserir uma palavra que contém \"aspas\" em meu texto.")
+    print('Eu posso inserir uma palavra que contém \'aspas\' em meu texto.')
+    print("C:\\Windows\\Documents\\file.txt")
+            </code></pre>
+        </section>
+        <section>
+            <h1>Preste atenção!</h1><br>
+            <p><em>O erro mais comum para todo iniciante em Python ao escrever programas que geram alguma saida em texto é esquecer de inserir as aspas simples ou duplas ou não saber como utiliza-las dentro da função print. Portanto cuidado!</em></p>
+        </section>
+
+    </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            autoCenter: true,
+            controls: true,
+            mouseWheel: true,
+            history: true,
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+        });
+    </script>
+
+
+  </body>
+</html>
