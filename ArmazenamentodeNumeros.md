@@ -71,7 +71,7 @@ Explicando a sintaxe:
 Eu tenho 2.000000 cães e 4.000000 gatos.
 ```
 ##Funções para conversão de tipos
-Existem situações em que ao utilizarmos algumas funções como o input para solicitar algum dado para o usuário, por exemplo idade ou altura, nos deparamos com resultados inesperados. A função input sempre irá retornar uma string independente do valor que inserirmos e portanto não podemos utilizar uma string para realizar calculos. Nestes casos podemos fazer uso de funções como int() que converte uma string para inteiro quando a string representa um valor inteiro e float() que converte uma string para um valor decimal quando a string representa um valor decimal.
+Existem situações em que ao utilizarmos algumas funções como o input para solicitar algum dado para o usuário, por exemplo idade ou altura, nos confrontamos com resultados inesperados. A função input sempre irá retornar uma string independente do valor que inserirmos e portanto não podemos utilizar uma string para realizar calculos. Nestes casos podemos fazer uso de funções como int() que converte uma string para inteiro quando a string representa um valor inteiro e float() que converte uma string para um valor decimal quando a string representa um valor decimal.
 
 ```python
 >>> varStr = "42"
